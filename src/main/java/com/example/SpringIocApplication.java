@@ -1,5 +1,9 @@
-package com.example.springioc;
+package com.example;
 
+import com.example.springioc.ApplicationContextProvider;
+import com.example.springioc.Base64Encoder;
+import com.example.springioc.Encoder;
+import com.example.springioc.UrlEncoder;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -27,10 +31,11 @@ public class SpringIocApplication {
 		System.out.println(result);
 		//스프링에서 모든 객체를 주입받아서 사용한다.
 		//스프링에서 모든 생명주기가 관리된다
-
+		//System.out.println(Base64.getEncoder().encodeToString("steve.gmail.com".getBytes()));
 	}
 
 }
+
 @Configuration
 //한 클래스에서 여러개의 빈을 등록할 것이다(내부적으로 @component를 가지고 있다)
 class AppConfig{
