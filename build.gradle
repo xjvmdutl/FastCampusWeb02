@@ -13,6 +13,8 @@ repositories {
 }
 
 dependencies {
+	//AOP Dependenci추가
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
