@@ -1,7 +1,7 @@
-package com.example.ojectmapper;
+package com.example.objectmapper;
 
-import com.example.ojectmapper.dto.Car;
-import com.example.ojectmapper.dto.User;
+import com.example.objectmapper.dto.Car;
+import com.example.objectmapper.dto.User;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;

@@ -1,4 +1,4 @@
-package com.example.ojectmapper.dto;
+package com.example.objectmapper.dto;
 
 import java.util.List;
 
